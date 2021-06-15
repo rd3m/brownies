@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Calum's Brownies</title>
+    </head>
+    <body>
+        <header>
+            <h1>Calum's Mental Brownies</h1>
+            <p>
+                Drag the single or double brownie onto a student's name to add
+                points
+            </p>
+        </header>
+        <main>
+            <div class="container">
+                <div class="names">
+                    <div class="div dropzone" ondrop="addPoints('rayPoints')">
+                        <h3>Ray</h3>
+                        <h5>
+                            Points: <span class="points" id="rayPoints">0</span>
+                        </h5>
+                    </div>
+                    <div
+                        class="div dropzone"
+                        ondrop="addPoints('heshamPoints')"
+                    >
+                        <h3>Hesham</h3>
+                        <h5>
+                            Points:
+                            <span class="points" id="heshamPoints">0</span>
+                        </h5>
+                    </div>
+                    <div
+                        class="div dropzone"
+                        ondrop="addPoints('mekaelaPoints')"
+                    >
+                        <h3>Mekaela</h3>
+                        <h5>
+                            Points:
+                            <span class="points" id="mekaelaPoints">0</span>
+                        </h5>
+                    </div>
+                    <div class="div dropzone" ondrop="addPoints('rileyPoints')">
+                        <h3>Riley</h3>
+                        <h5>
+                            Points:
+                            <span class="points" id="rileyPoints">0</span>
+                        </h5>
+                    </div>
+                    <div class="div dropzone" ondrop="addPoints('nickPoints')">
+                        <h3>Nick</h3>
+                        <h5>
+                            Points:
+                            <span class="points" id="nickPoints">0</span>
+                        </h5>
+                    </div>
+                    <div class="div dropzone" ondrop="addPoints('liamPoints')">
+                        <h3>Liam</h3>
+                        <h5>
+                            Points:
+                            <span class="points" id="liamPoints">0</span>
+                        </h5>
+                    </div>
+                    <div class="div dropzone" ondrop="addPoints('ellaPoints')">
+                        <h3>Ella</h3>
+                        <h5>
+                            Points:
+                            <span class="points" id="ellaPoints">0</span>
+                        </h5>
+                    </div>
+                    <div
+                        class="div dropzone"
+                        ondrop="addPoints('christianPoints')"
+                    >
+                        <h3>Christian</h3>
+                        <h5>
+                            Points:
+                            <span class="points" id="christianPoints">0</span>
+                        </h5>
+                    </div>
+                    <div
+                        class="div dropzone"
+                        ondrop="addPoints('tingyuPoints')"
+                    >
+                        <h3>Tingyu</h3>
+                        <h5>
+                            Points:
+                            <span class="points" id="tingyuPoints">0</span>
+                        </h5>
+                    </div>
+                    <div
+                        class="div dropzone"
+                        ondrop="addPoints('richardPoints')"
+                    >
+                        <h3>Richard</h3>
+                        <h5>
+                            Points:
+                            <span class="points" id="richardPoints">0</span>
+                        </h5>
+                    </div>
+                    <div
+                        class="div dropzone"
+                        ondrop="addPoints('danijelPoints')"
+                    >
+                        <h3>Danijel</h3>
+                        <h5>
+                            Points:
+                            <span class="points" id="danijelPoints">0</span>
+                        </h5>
+                    </div>
+                    <div class="div dropzone" ondrop="addPoints('caraPoints')">
+                        <h3>Cara</h3>
+                        <h5>
+                            Points:
+                            <span class="points" id="caraPoints">0</span>
+                        </h5>
+                    </div>
+                    <div class="div dropzone" ondrop="addPoints('allenPoints')">
+                        <h3>Allen</h3>
+                        <h5>
+                            Points:
+                            <span class="points" id="allenPoints">0</span>
+                        </h5>
+                    </div>
+                    <div class="div dropzone" ondrop="addPoints('alexPoints')">
+                        <h3>Alex</h3>
+                        <h5>
+                            Points:
+                            <span class="points" id="alexPoints">0</span>
+                        </h5>
+                    </div>
+                </div>
+                <div class="no-show" id="pop-up">
+                    <img src="img/giphy.webp" />
+                </div>
+                <div class="brownies">
+                    <div>
+                        <img
+                            src="img/single.png"
+                            class="draggable single"
+                            draggable="true"
+                            id="single"
+                        />
+                    </div>
+                    <div>
+                        <img
+                            src="img/double.png"
+                            class="draggable double"
+                            draggable="true"
+                            id="double"
+                        />
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+        <script src="script.js"></script>
+    </body>
+</html>
